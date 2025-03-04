@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bcd3869e.css",
+    "main.js": "/portfolio/static/js/main.19edb87f.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Python_certificate.png": "/portfolio/static/media/Python_certificate.e2c76531b32c2232eb5d.png",
+    "static/media/ImplantTraining.png": "/portfolio/static/media/ImplantTraining.0d3df5eeaa186058ebb5.png",
+    "static/media/SoftwareTesting_Certificate.png": "/portfolio/static/media/SoftwareTesting_Certificate.e8bbcf976598a509e27a.png",
+    "static/media/C_Programming_Cert.png": "/portfolio/static/media/C_Programming_Cert.6c9311111e092e4a1819.png",
+    "static/media/Excellence_Certificate.jpg": "/portfolio/static/media/Excellence_Certificate.54fb4075dd5fde594691.jpg",
+    "static/media/Snowfale_Certificate.jpg": "/portfolio/static/media/Snowfale_Certificate.ae964d50cca599bc4311.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.bcd3869e.css.map": "/portfolio/static/css/main.bcd3869e.css.map",
+    "main.19edb87f.js.map": "/portfolio/static/js/main.19edb87f.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd3869e.css",
+    "static/js/main.19edb87f.js"
+  ]
+}
