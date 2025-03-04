@@ -1,0 +1,96 @@
+#intro{
+    height: calc(100vh- 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.introcontent{
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    padding-top: 9rem;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.introName{
+    color: #f0e68c;
+    font-size: 3rem;
+}
+
+.intropara{
+    font-size: large;
+    font-weight: 300;
+}
+
+#home_passport{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+@media (max-width: 768px) {
+    #intro {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .introcontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .hello {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .introName {
+        font-size: 2rem;
+    }
+
+    .intropara {
+        font-size: 1rem;
+    }
+
+    #home_passport {
+        order: -1;
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+
+    #resumebtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+#resumebtn{
+
+    width: 150px;
+    height: 40px;
+    margin-top: 1rem;
+}

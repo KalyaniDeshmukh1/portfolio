@@ -1,0 +1,124 @@
+/* Navbar general styles */
+.navbar {
+  background: rgb(30,30,30);
+  background: linear-gradient(to right, #333232, #000000);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center; /* Adjusted */
+  align-items: center;
+  height: 70px;
+  position: sticky;
+  top: 0;
+}
+
+.menu{
+  display: flex;
+  gap: 40px;
+}
+.desktopMenu {
+  display: flex;
+  flex: 1;
+  justify-content: space-around; /* Spaces items evenly */
+  gap: 120px;
+}
+
+.desktopMenuListItem {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.desktopMenuListItem:hover {
+  color: #f0e68c;
+}
+
+button {
+  background-color: #f0e68c;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffc107;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+#Contact_button {
+  height: 50px;
+  width: 130px;
+}
+
+
+/* Desktop view */
+@media (min-width: 768px) {
+  .hamburger {
+      display: none; /* Hide hamburger on larger screens */
+  }
+  .menu {
+      display: flex; /* Show menu inline on larger screens */
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .menu {
+      display: none; /* Hide menu by default */
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: #333232;
+      flex-direction: column;
+      padding: 10px;
+      gap: 15px;
+      border-radius: 8px;
+  }
+  
+  .menu.open {
+      display: flex; /* Show menu when open */
+  }
+
+  .hamburger {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 4px;
+      margin-right: 10px;
+  }
+
+  .bar {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+  }
+
+  /* Hide the Contact button on mobile view */
+  #Contact_button {
+      display: none;
+  }
+}
+
+@media (min-width: 768px){
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+   /* Adds equal spacing between items */
+  gap: 60px;
+}
+}
+
+.menu-item:hover{
+  color: #ffc107;
+}
+
+.active{
+  color: yellow;
+}
+
