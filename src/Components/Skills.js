@@ -1,5 +1,8 @@
 import React from 'react';
 import './Skills.css';
+import UXDesign from '../Assets/UX_design.png';
+import WebsiteDesign from '../Assets/Website_design.png';
+import SoftwareTesting from '../Assets/Software_testing.png';
 
 const Skills = () => {
   return (
@@ -17,7 +20,7 @@ const Skills = () => {
 
         {/* First skill set div bar */}
         <div id="skillBar">
-          <img src="/UX_design.png" className="skillbarImg" alt="UX Design" />
+          <img src={UXDesign} className="skillbarImg" alt="UX Design" />
           <div id="skillbarText">
             <h2>UX Design</h2>
             <p>Creating user-centered, intuitive interfaces.</p>
@@ -26,7 +29,7 @@ const Skills = () => {
 
         {/* Second skill set div bar */}
         <div id="skillBar">
-          <img src="/Website_design.png" className="skillbarImg" alt="Website Design" />
+          <img src={WebsiteDesign} className="skillbarImg" alt="Website Design" />
           <div id="skillbarText">
             <h2>Website Design</h2>
             <p>Building visually appealing and responsive designs.</p>
@@ -35,7 +38,7 @@ const Skills = () => {
 
         {/* Third skill set div bar */}
         <div id="skillBar">
-          <img src="/Software_testing.png" className="skillbarImg" alt="Software Testing" />
+          <img src={SoftwareTesting} className="skillbarImg" alt="Software Testing" />
           <div id="skillbarText">
             <h2>Software Testing</h2>
             <p>Ensuring reliable, high-quality application performance.</p>

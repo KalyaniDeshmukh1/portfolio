@@ -1,5 +1,6 @@
 import React from 'react'
 import './intro.css';
+import passport from '../Assets/Portfolio_passport.jpg';
 
 const Intro = () => {
   const handleDownload = () => {
@@ -20,7 +21,7 @@ const Intro = () => {
             <p className='intropara'>Innovative Front-End Developer Focused on Modern, Mobile-Optimized Web Solutions.</p>
             <button id='resumebtn' onClick={handleDownload}>View Resume</button>
         </div>
-        <img src='/Portfolio_passport.jpg' alt='passport' id='home_passport'/>
+        <img src={passport} alt='passport' id='home_passport'/>
     </section>
   )
 }

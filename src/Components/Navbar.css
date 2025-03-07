@@ -4,22 +4,22 @@
   background: linear-gradient(to right, #333232, #000000);
   padding: 20px;
   display: flex;
-  justify-content: space-around;
-  justify-content: center; /* Adjusted */
+  justify-content: center;
   align-items: center;
   height: 70px;
   position: sticky;
   top: 0;
 }
 
-.menu{
+.menu {
   display: flex;
-  gap: 40px;
+  gap: 60px;
 }
+
 .desktopMenu {
   display: flex;
   flex: 1;
-  justify-content: space-around; /* Spaces items evenly */
+  justify-content: space-around;
   gap: 120px;
 }
 
@@ -56,69 +56,11 @@ img {
   width: 130px;
 }
 
-
-/* Desktop view */
-@media (min-width: 768px) {
-  .hamburger {
-      display: none; /* Hide hamburger on larger screens */
-  }
-  .menu {
-      display: flex; /* Show menu inline on larger screens */
-  }
-}
-
-/* Mobile view */
-@media (max-width: 768px) {
-  .menu {
-      display: none; /* Hide menu by default */
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      background: #333232;
-      flex-direction: column;
-      padding: 10px;
-      gap: 15px;
-      border-radius: 8px;
-  }
+.menu-item:hover {
   
-  .menu.open {
-      display: flex; /* Show menu when open */
-  }
-
-  .hamburger {
-      display: flex;
-      flex-direction: column;
-      cursor: pointer;
-      gap: 4px;
-      margin-right: 10px;
-  }
-
-  .bar {
-      width: 25px;
-      height: 3px;
-      background-color: white;
-  }
-
-  /* Hide the Contact button on mobile view */
-  #Contact_button {
-      display: none;
-  }
-}
-
-@media (min-width: 768px){
-.menu {
-  display: flex;
-  justify-content: space-evenly;
-   /* Adds equal spacing between items */
-  gap: 60px;
-}
-}
-
-.menu-item:hover{
   color: #ffc107;
 }
 
-.active{
+.active {
   color: yellow;
 }
-

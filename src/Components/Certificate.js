@@ -7,6 +7,13 @@ import Implant from '../Assets/ImplantTraining.png'
 import Testing from '../Assets/SoftwareTesting_Certificate.png'
 import Programming from '../Assets/C_Programming_Cert.png'
 import Excellence from '../Assets/Excellence_Certificate.jpg'
+import Snowflake from '../Assets/Snowflake.png'
+import ImplantTraining from '../Assets/Implant_training.png'
+import SoftwareTesting from '../Assets/ExcelR.png'
+import C_Language from '../Assets/C_Language.png'
+import ExcellenceCert from '../Assets/Excellence.jpeg'
+
+
 
 const Certificate = () => {
 
@@ -43,7 +50,7 @@ const Certificate = () => {
       <div className='CertificatesGrid'>
 
         <div className='CertificateBox'>
-          <img src="./Snowflake.png" id='CertificateImg' alt='Snowflake Certificate' />
+          <img src={Snowflake} id='CertificateImg' alt='Snowflake Certificate' />
           <p>Snowflake Pro core certification</p>
           {!isImageVisible && (
               <button onClick={()=>{handleShowImage(SnowflakeCerti)}} id='Certificatebtn1'>View Certificate</button>
@@ -53,7 +60,7 @@ const Certificate = () => {
         </div>
 
         <div className='CertificateBox'>
-          <img src="./Implant_training.png" id='CertificateImg' alt='Web Design Training' />
+          <img src={ImplantTraining} id='CertificateImg' alt='Web Design Training' />
           <p>Web Design implant training by Sumago Institute</p>
           {!isImageVisible && (
               <button onClick={()=>{handleShowImage(Implant)}} id='Certificatebtn1'>View Certificate</button>
@@ -61,7 +68,7 @@ const Certificate = () => {
         </div>
 
         <div className='CertificateBox'>
-          <img src="./ExcelR.png" id='CertificateImg' alt='ExcelR Certificate' />
+          <img src={SoftwareTesting} id='CertificateImg' alt='ExcelR Certificate' />
           <p>Software Testing certificate by ExcelR Institute</p>
           <button onClick={()=>{handleShowImage(Testing)}} id='Certificatebtn3'>View Certificate</button>
         </div>
@@ -73,13 +80,13 @@ const Certificate = () => {
         </div>
 
         <div className='CertificateBox'>
-          <img src="./C_Language.png" id='CertificateImg' alt='C Programming Certificate' />
+          <img src={C_Language} id='CertificateImg' alt='C Programming Certificate' />
           <p>C Programming language certificate by Disha Institute</p>
           <button onClick={()=>{handleShowImage(Programming)}} id='Certificatebtn5'>View Certificate</button>
         </div>
 
         <div className='CertificateBox'>
-          <img src="./Excellence.jpeg" id='CertificateImg' alt='Excellence Certificate' />
+          <img src={ExcellenceCert} id='CertificateImg' alt='Excellence Certificate' />
           <p>Certificate of excellence by 64 Square LLC</p>
           <button onClick={()=>{handleShowImage(Excellence)}} id='Certificatebtn6'>View Certificate</button>
         </div>
