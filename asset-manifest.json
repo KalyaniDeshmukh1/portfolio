@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.47f085fb.css",
-    "main.js": "/portfolio/static/js/main.50133100.js",
+    "main.js": "/portfolio/static/js/main.8d2a32d9.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Python_certificate.png": "/portfolio/static/media/Python_certificate.e2c76531b32c2232eb5d.png",
     "static/media/ImplantTraining.png": "/portfolio/static/media/ImplantTraining.0d3df5eeaa186058ebb5.png",
@@ -12,11 +12,11 @@
     "static/media/Snowfale_Certificate.jpg": "/portfolio/static/media/Snowfale_Certificate.ae964d50cca599bc4311.jpg",
     "index.html": "/portfolio/index.html",
     "main.47f085fb.css.map": "/portfolio/static/css/main.47f085fb.css.map",
-    "main.50133100.js.map": "/portfolio/static/js/main.50133100.js.map",
+    "main.8d2a32d9.js.map": "/portfolio/static/js/main.8d2a32d9.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47f085fb.css",
-    "static/js/main.50133100.js"
+    "static/js/main.8d2a32d9.js"
   ]
 }
