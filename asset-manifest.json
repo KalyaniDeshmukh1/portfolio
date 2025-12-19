@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.47f085fb.css",
-    "main.js": "/portfolio/static/js/main.33e7b5eb.js",
+    "main.js": "/portfolio/static/js/main.50133100.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Python_certificate.png": "/portfolio/static/media/Python_certificate.e2c76531b32c2232eb5d.png",
     "static/media/ImplantTraining.png": "/portfolio/static/media/ImplantTraining.0d3df5eeaa186058ebb5.png",
@@ -10,14 +10,13 @@
     "static/media/Portfolio_passport.jpg": "/portfolio/static/media/Portfolio_passport.7a00a82a3f0bd3e36e06.jpg",
     "static/media/Excellence_Certificate.jpg": "/portfolio/static/media/Excellence_Certificate.54fb4075dd5fde594691.jpg",
     "static/media/Snowfale_Certificate.jpg": "/portfolio/static/media/Snowfale_Certificate.ae964d50cca599bc4311.jpg",
-    "static/media/UX_design.png": "/portfolio/static/media/UX_design.a258e5d3ebf90d52a0bf.png",
     "index.html": "/portfolio/index.html",
     "main.47f085fb.css.map": "/portfolio/static/css/main.47f085fb.css.map",
-    "main.33e7b5eb.js.map": "/portfolio/static/js/main.33e7b5eb.js.map",
+    "main.50133100.js.map": "/portfolio/static/js/main.50133100.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47f085fb.css",
-    "static/js/main.33e7b5eb.js"
+    "static/js/main.50133100.js"
   ]
 }
