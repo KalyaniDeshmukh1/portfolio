@@ -12,6 +12,7 @@ import ImplantTraining from '../Assets/Implant_training.png'
 import SoftwareTesting from '../Assets/ExcelR.png'
 import C_Language from '../Assets/C_Language.png'
 import ExcellenceCert from '../Assets/Excellence.jpeg'
+import PythonLogo from '../Assets/PythonLogo.jpg'
 
 
 
@@ -74,7 +75,7 @@ const Certificate = () => {
         </div>
 
         <div className='CertificateBox'>
-          <img src="./Python.jpeg" id='CertificateImg' alt='Python Certificate' />
+          <img src={PythonLogo} id='CertificateImg' alt='Python Certificate' />
           <p>Python Certificate by HackerRank</p>
           <button onClick={()=>{handleShowImage(Pythoncert)}} id='Certificatebtn4'>View Certificate</button>
         </div>
