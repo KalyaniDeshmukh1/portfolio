@@ -16,9 +16,9 @@ const Intro = () => {
         <div className='introcontent'>
             <span className='hello'>Hello, I'm</span>
             <span className='introText'> <span className='introName'><i>Kalyani Deshmukh</i></span><br/>
-            𝒲𝑒𝒷 𝒟𝑒𝓈𝒾𝑔𝓃𝑒𝓇
+            𝔽𝕦𝕝𝕝 𝕊𝕥𝕒𝕔𝕜 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣
             </span>
-            <p className='intropara'>Innovative Front-End Developer Focused on Modern, Mobile-Optimized Web Solutions.</p>
+            <p className='intropara'> Experinced in end-to-end application development, from responsive UI design to backend logic and database management. Passionate about writing clean, efficient, and maintainable code.</p>
             <button id='resumebtn' onClick={handleDownload}>View Resume</button>
         </div>
         <img src={passport} alt='passport' id='home_passport'/>

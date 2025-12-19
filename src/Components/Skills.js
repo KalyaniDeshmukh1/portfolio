@@ -1,8 +1,8 @@
 import React from 'react';
 import './Skills.css';
-import UXDesign from '../Assets/UX_design.png';
 import WebsiteDesign from '../Assets/Website_design.png';
 import SoftwareTesting from '../Assets/Software_testing.png';
+
 
 const Skills = () => {
   return (
@@ -12,7 +12,7 @@ const Skills = () => {
         What I do 
       </span>
       <span id="skillDescription">
-        A skilled web designer and dedicated software tester work hand in hand to create visually captivating, intuitive interfaces and ensure every detail is tested to deliver flawless, high-quality experiences
+        Design intuitive and user-friendly UI/UX experiences, develop scalable backend systems, and integrate databases to ensure smooth data flow.
       </span>
 
 
@@ -20,19 +20,19 @@ const Skills = () => {
 
         {/* First skill set div bar */}
         <div id="skillBar">
-          <img src={UXDesign} className="skillbarImg" alt="UX Design" />
+          <img src={WebsiteDesign} className="skillbarImg" alt="UX Design" />
           <div id="skillbarText">
-            <h2>UX Design</h2>
-            <p>Creating user-centered, intuitive interfaces.</p>
+            <h2>UI/UX Design</h2>
+            <p>Designing intuitive, user-friendly interfaces that enhance user experience..</p>
           </div>
         </div>
 
         {/* Second skill set div bar */}
         <div id="skillBar">
-          <img src={WebsiteDesign} className="skillbarImg" alt="Website Design" />
+          <img src='Backend.jpg' className="skillbarImg" alt="Website Design" />
           <div id="skillbarText">
-            <h2>Website Design</h2>
-            <p>Building visually appealing and responsive designs.</p>
+            <h2>Backend Developer</h2>
+            <p>Developing scalable, secure backend systems to support application functionality.</p>
           </div>
         </div>
 
@@ -40,8 +40,8 @@ const Skills = () => {
         <div id="skillBar">
           <img src={SoftwareTesting} className="skillbarImg" alt="Software Testing" />
           <div id="skillbarText">
-            <h2>Software Testing</h2>
-            <p>Ensuring reliable, high-quality application performance.</p>
+            <h2>Database Integators</h2>
+            <p>Integrating and managing databases to ensure efficient and reliable data flow.</p>
           </div>
         </div>
 
